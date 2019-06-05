@@ -136,17 +136,15 @@ body {
 }
 /* Mixins */
 .spacing {
-  margin: 15px 0 100px 50px;
+  position: relative;
+  left: 80px;
+  padding-top: 20px;
+  font-size: 18px;
 }
 nav {
   display: flex;
   justify-content: space-around;
   margin: 15px 0 100px 50px;
-}
-nav .logo-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 nav .logo {
   border: 3px solid red;
@@ -155,7 +153,26 @@ nav .logo {
   top: -30px;
   margin-top: 30px;
 }
-.profile-pic {
+section {
+  width: 100%;
   display: flex;
-  margin: 15px 0 100px 50px;
+}
+section h1 {
+  font-size: 50px;
+  align-content: center;
+  position: relative;
+  left: 600px;
+}
+section .profile-pic {
+  display: flex;
+  margin-top: 50px;
+  position: relative;
+  left: -200px;
+}
+section .about-blurb {
+  border: 2px solid red;
+  position: relative;
+  left: 80px;
+  padding-top: 20px;
+  font-size: 18px;
 }

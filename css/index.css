@@ -138,6 +138,11 @@ body {
 .border {
   border: 3px solid red;
 }
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
 .container {
   width: 100%;
   height: 500px;
@@ -146,11 +151,18 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.container-contents {
+.container .container-contents {
   flex-basis: 30%;
   border: 3px solid red;
 }
+.profile-pic {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
 footer {
-  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
   border: 3px solid red;
 }

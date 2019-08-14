@@ -174,7 +174,7 @@ nav a {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding-left: 29rem;
+  padding-left: 19rem;
 }
 .container .container-contents {
   width: 100%;
@@ -293,13 +293,42 @@ ul .list-4 {
 .span1 {
   font-size: 2rem;
   font-weight: bolder;
+  border-top: 1px solid lightgray;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 .span1 .c-span {
-  padding-left: 6rem;
+  padding-left: 12rem;
+}
+.span1 .t-span {
+  padding-left: 25rem;
+}
+.span1 .tech-span {
+  padding-left: 35rem;
+}
+.span2 {
+  font-size: 2rem;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  background: #f1f1f1;
+  margin-top: 1.5rem;
+  padding: 1rem 0 1rem 1rem;
+  font-weight: bolder;
+}
+.com-span {
+  font-weight: 100;
+  padding-left: 14rem;
+}
+.title-span {
+  font-weight: 100;
+  padding-left: 28rem;
+}
+.used-span {
+  font-weight: 100;
+  padding-left: 25rem;
 }
 footer {
   display: flex;
   justify-content: space-evenly;
   padding-top: 20px;
-  border: 3px solid red;
 }

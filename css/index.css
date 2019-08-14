@@ -356,7 +356,10 @@ ul .list-4 {
   padding-left: 33.5rem;
 }
 footer {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  background: gray;
+  margin: 4rem 0;
+  padding: 2rem 0 3rem 0;
 }

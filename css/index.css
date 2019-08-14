@@ -105,7 +105,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 1.5;
 }
 ol,
 ul {
@@ -139,50 +139,54 @@ body {
 .border {
   border: 3px solid red;
 }
+.list-border {
+  border: 1px solid #cfcdcd;
+}
+.list-padding {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 7rem;
+  padding-left: 1rem;
+}
+.spacing {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+/* Styles */
 nav {
   display: flex;
-  width: 100%;
+  width: 69.7%;
   font-size: 1.8rem;
-  padding-top: 3rem;
-  padding-bottom: 20px;
-  justify-content: space-evenly;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  justify-content: flex-end;
+  margin-left: 34rem;
 }
-@media (max-width: 800px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  nav {
-    flex-wrap: wrap;
-    width: 100%;
-  }
+nav a {
+  text-decoration: none;
+  color: black;
+  padding-right: 1rem;
+  font-size: 2rem;
 }
 .container {
-  width: 70%;
-  height: 100rem;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   padding-left: 29rem;
 }
-@media (max-width: 800px) {
-  .container {
-    flex-direction: none;
-    width: 100%;
-    align-content: flex-start;
-  }
-}
 .container .container-contents {
-  flex-basis: 30%;
+  width: 100%;
   background-color: #f7f3f3;
   justify-content: center;
+  padding-left: 4rem;
 }
 .profile-pic {
   padding-top: 6rem;
-  padding-left: 2.5rem;
+  padding-left: -2;
   padding-bottom: 1rem;
+  width: 357px;
 }
 @media (max-width: 800px) {
   .profile-pic {
@@ -194,17 +198,11 @@ nav {
 }
 h1 {
   font-size: 4rem;
-  padding-top: 2rem;
-}
-@media (max-width: 800px) {
-  h1 {
-    font-size: 2rem;
-  }
+  padding: 2rem 0 1rem 0rem;
 }
 .intro-tagline {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 0.2rem solid gray;
+  padding: 1rem 0 3rem 0;
+  border-bottom: 1px solid gray;
   width: 90%;
   font-size: 2.5rem;
 }
@@ -213,8 +211,91 @@ h1 {
   padding-bottom: 1rem;
   padding-left: 2rem;
 }
-.contents-2-blurb {
+.contents-2 .contents-2-blurb {
   font-size: 2rem;
+  padding-bottom: 3rem;
+}
+button {
+  font-size: 2rem;
+  background-color: gray;
+  color: white;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  border: 0.5rem silver;
+  margin-bottom: 6rem;
+}
+.middle-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 5rem;
+  margin-left: 7rem;
+  background-color: white;
+}
+.contents-3 {
+  width: 40%;
+  background-color: white;
+  margin-left: -14.5rem;
+}
+.contents-3 .contents-3-blurb {
+  background-color: white;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+.contents-4 {
+  font-size: 2rem;
+  padding-left: 2rem;
+  width: 50%;
+}
+ul {
+  margin-top: -1rem;
+  font-size: 1.7rem;
+}
+ul .list-1 {
+  border: 1px solid #cfcdcd;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 7rem;
+  padding-left: 1rem;
+}
+ul .list-2 {
+  border: 1px solid #cfcdcd;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 7rem;
+  padding-left: 1rem;
+}
+ul .list-3 {
+  border: 1px solid #cfcdcd;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 7rem;
+  padding-left: 1rem;
+}
+ul .list-4 {
+  border: 1px solid #cfcdcd;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 7rem;
+  padding-left: 1rem;
+}
+.work-title {
+  margin-top: 4rem;
+}
+.span1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.span1 .c-span {
+  padding-left: 6rem;
 }
 footer {
   display: flex;

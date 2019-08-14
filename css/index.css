@@ -327,6 +327,34 @@ ul .list-4 {
   font-weight: 100;
   padding-left: 25rem;
 }
+.span3 {
+  font-size: 2rem;
+  border-bottom: 1px solid lightgray;
+  padding: 1.5rem 0 1.5rem 1rem;
+  font-weight: bolder;
+  margin-top: -0.5rem;
+}
+.span3 .title-span3 {
+  font-weight: 100;
+  padding-left: 24.8rem;
+}
+.span4 {
+  font-size: 2rem;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  background: #f1f1f1;
+  margin-top: -0.5rem;
+  padding: 1rem 0 1rem 1rem;
+  font-weight: bolder;
+}
+.span4 .title-span4 {
+  font-weight: 100;
+  padding-left: 26.1rem;
+}
+.span4 .used-span4 {
+  font-weight: 100;
+  padding-left: 33.5rem;
+}
 footer {
   display: flex;
   justify-content: space-evenly;
